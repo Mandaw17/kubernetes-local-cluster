@@ -1,4 +1,4 @@
 #!/bin/bash
-set -eux
+set -eux 
 
 echo "Worker ready to join cluster"

@@ -1,6 +1,6 @@
 #!/bin/bash
 set -eux
-
+ 
 # Only init if not already initialized
 if [ ! -f /etc/kubernetes/admin.conf ]; then
   kubeadm init \
